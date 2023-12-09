@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select">Select the Category</string>
+    <string-array name="category_options">
+        <item>Select the Category</item>
+        <item>4k celebration party</item>
+        <item>Blankets</item>
+        <item>Child Care kit</item>
+        <item>Chicken Biryani</item>
+        <item>Dogfood</item>
+        <item>Egg and Milk</item>
+        <item>Egg Biryani</item>
+        <item>Education</item>
+        <item>Grocery kit</item>
+        <item>Homeless</item>
+        <item>Napkins</item>
+        <item>Orphanage</item>
+        <item>Thalia Food</item>
+        <item>Tree planting</item>
+        <item>Veg Biryani</item>
+    </string-array>
+</resources>

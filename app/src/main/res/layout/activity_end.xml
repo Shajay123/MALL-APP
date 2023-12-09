@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.Light"
+    tools:context=".EndActivity">
+
+    <!-- Header Row -->
+
+    <!-- Donor Name Row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Amtdonated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:paddingRight="15dp"
+            android:text="Amount Donated :"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/donorname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:paddingRight="15dp"
+            android:text="Donor Name :"
+            android:textSize="20sp" />
+        <!-- Add other TextViews for Donor Name in the same TableRow -->
+    </TableRow>
+
+    <!-- Parcel Row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/Parcel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:text="Parcel Name :"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp" />
+        <!-- Add other TextViews for Parcel Name in the same TableRow -->
+    </TableRow>
+
+    <!-- Date of Donation Row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/dateofdonation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:text="Date of Donation :"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp" />
+        <!-- Add other TextViews for Date of Donation in the same TableRow -->
+    </TableRow>
+
+    <!-- Date of Service Row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/DateOfService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:text="Date of Service :"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp" />
+        <!-- Add other TextViews for Date of Service in the same TableRow -->
+    </TableRow>
+
+    <!-- Whatsapp Number Row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/whatsno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:text="Whatsapp Number :"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp" />
+        <!-- Add other TextViews for Whatsapp Number in the same TableRow -->
+    </TableRow>
+
+    <!-- Category Row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:text="Category :"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp" />
+        <!-- Add other TextViews for Category in the same TableRow -->
+    </TableRow>
+
+    <!-- Amount Donated Row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!-- Add other TextViews for Amount Donated in the same TableRow -->
+    </TableRow>
+
+    <!-- Number of Parcels Row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/NoofParcels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:text="Number of Parcels :"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp" />
+        <!-- Add other TextViews for Number of Parcels in the same TableRow -->
+    </TableRow>
+
+    <!-- Mode of Payment Row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/paymentmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:text="Mode of Payment :"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp" />
+        <!-- Add other TextViews for Mode of Payment in the same TableRow -->
+    </TableRow>
+
+    <!-- Name of the RM Row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/RmName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:text="Name of the RM :"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp" />
+        <!-- Add other TextViews for Name of the RM in the same TableRow -->
+    </TableRow>
+
+    <!-- Name of the Mall Row -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/MallName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:text="Name of the Mall :"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp" />
+        <!-- Add other TextViews for Name of the Mall in the same TableRow -->
+    </TableRow>
+
+    <!-- Button Row -->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="Share"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:text="Save"
+            android:textSize="25sp" />
+
+    </TableRow>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/savegif"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/done"
+        android:visibility="invisible" />
+</TableLayout>
