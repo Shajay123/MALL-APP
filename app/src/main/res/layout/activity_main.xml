@@ -39,7 +39,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/qr" />
         </androidx.constraintlayout.widget.ConstraintLayout>
         <com.jackandphantom.carouselrecyclerview.CarouselRecyclerview
-            android:id ="@+id/recyclerview"
+            android:id ="@+id/CarouselRecyclerview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="50dp"
