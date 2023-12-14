@@ -63,5 +63,7 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx:22.3.0")
     implementation("com.google.firebase:firebase-analytics-ktx")
     implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.23")
+    implementation ("com.google.firebase:firebase-analytics-ktx:21.5.0")
+
 
 }
