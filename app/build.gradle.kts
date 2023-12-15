@@ -65,7 +65,6 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics-ktx:21.5.0")
     implementation("com.google.firebase:firebase-auth-ktx:22.3.0")
     implementation("com.google.firebase:firebase-firestore-ktx:24.10.0")
-    implementation("com.google.firebase:firebase-storage-ktx:23.0.0")
     implementation("com.firebaseui:firebase-ui-firestore:8.0.2")
     implementation("com.google.firebase:firebase-database-ktx:20.3.0")
 
@@ -82,6 +81,8 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("com.github.sparrow007:carouselrecyclerview:1.2.6")
+
+    implementation ("pl.droidsonroids.gif:android-gif-drawable:1.2.17")
 }
 
 

@@ -43,11 +43,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="50dp"
-            app:layout_constraintStart_toStartof="parent"
-            app:layout_constraintEnd_toEndof="parent"
-            app:layout_constraintTop_toTopof="parent"/>
-
-
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
 
     </LinearLayout>
 </ScrollView>

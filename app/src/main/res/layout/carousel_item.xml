@@ -16,6 +16,6 @@
         android:id="@+id/cardimage"
         android:layout_width="158dp"
         android:layout_height="300dp"
-        android:ScaleType = "fitXY"/>
+        android:scaleType="fitXY" />
 
 </LinearLayout>
