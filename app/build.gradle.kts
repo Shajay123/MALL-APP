@@ -64,10 +64,10 @@ dependencies {
     // Firebase Libraries
     implementation("com.google.firebase:firebase-analytics-ktx:21.5.0")
     implementation("com.google.firebase:firebase-auth-ktx:22.3.0")
-    implementation("com.google.firebase:firebase-database-ktx:23.0.0")
     implementation("com.google.firebase:firebase-firestore-ktx:24.10.0")
     implementation("com.google.firebase:firebase-storage-ktx:23.0.0")
     implementation("com.firebaseui:firebase-ui-firestore:8.0.2")
+    implementation("com.google.firebase:firebase-database-ktx:20.3.0")
 
     // Network and Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")

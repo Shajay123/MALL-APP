@@ -17,9 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/Base.Theme.MyApplication"
         tools:targetApi="s">
-        <activity
-            android:name=".ViewHolder"
-            android:exported="false" />
+
         <activity
             android:name=".SplashScreen"
             android:exported="true">
