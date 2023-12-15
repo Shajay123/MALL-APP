@@ -5,7 +5,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.bumptech.glide.load.resource.bitmap.TransformationUtils.setAlpha
 import com.example.myapplication.databinding.ActivityMainBinding
 
 
